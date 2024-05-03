@@ -1,0 +1,37 @@
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  body {
+    background-image: url("../../img/juego/juegoNBA/fondoNBA.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .cartas-contenedor, .contenedor-superior, .carta-seleccionada, .carta-aleatoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cartas-contenedor img, .contenedor-superior img, .carta-seleccionada img, .carta-aleatoria img {
+    margin: 0 10px; /* Espacio entre cada carta */
+    width: 200px; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+  }
+  
+  .contenedor-cartas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .puntuacion {
+    font-size: 16px;
+    margin: 0 10px;
+  }
