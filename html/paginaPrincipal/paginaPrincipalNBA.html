@@ -34,6 +34,20 @@
                 </div>
             </header>
 
+            <div id="avisoCookies" class="aviso-cookies">
+                <p>Este sitio web utiliza cookies para mejorar la experiencia del usuario.</p>
+                <form id="cookiesForm">
+                    <label><input type="checkbox" name="cookiesAnaliticas"> Cookies Analíticas</label><br>
+                    <label><input type="checkbox" name="cookiesPublicitarias"> Cookies Publicitarias</label><br>
+                    <label><input type="checkbox" name="cookiesPersonalizadas"> Cookies Personalizadas</label><br>
+                    <div id="posicionarButtons">
+                        <button type="submit" id="aceptacion">Aceptar</button>
+                        <button type="button" id="botonRechazo" onclick="rechazarBtn()" onmouseover="crazyBtn()">Rechazar</button>
+                    
+                    </div>
+                </form>
+            </div>
+
             <div id="layoutAnuncios">
                 <div class="sliderPrincipal">
                     <ul>
@@ -106,4 +120,7 @@
         </div>
         
     </body>
+
+    <script src="../../js/paginaPCookies/paginaPCookies.js"></script>
+
 </html>
